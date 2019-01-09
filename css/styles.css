@@ -1,0 +1,178 @@
+
+body,
+html {
+    height: 100%;
+    background-image: url("../img/header-image.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#navMain {
+    font-family: 'Happy Monkey';
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+#navMain .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    color: rgba(255, 255, 255, 0.973);
+}
+
+#navMain a {
+    color: rgba(250, 250, 250, 0.973);
+    text-decoration: none;
+}
+
+#navMain .navbar-nav .nav-item:active,
+#navMain .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+#start-game a {
+    margin-top: 60%;
+}
+
+#start-game {
+    text-align: center;
+}
+
+.live-content h1 {
+    font-size: 10em;
+}
+
+.player-turn {
+    background-color: rgba(255, 99, 71, 0.116);
+    height: 20em;
+}
+
+.game-content {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.dice-game {
+    padding-top: 6%;
+    display: none;
+}
+
+.center-panel button {
+    margin: 5%;
+}
+
+.center-panel p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    color: rgba(255, 0, 0, 0.616);
+}
+
+.winner {
+    background-image: url("../img/dice.gif");
+    background-size: cover;
+    /* height:5em; */
+}
+
+.winner-text {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    padding-left: 2%;
+    color: white;
+}
+
+.center-panel button {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+a.btn {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px rgba(248, 0, 0, 0.973);
+    color: rgb(252, 252, 252);
+    background-color: rgb(255, 0, 0);
+    margin: 0.1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+a:hover.btn {
+    background-color: #eeeceb00;
+    color: white;
+}
+
+.live-content,
+.winner-text {
+    font-family: 'Julius Sans One';
+}
+
+a#fresh-game {
+    font-family: 'Averia Sans Libre';
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: 1.4em;
+}
+
+.footer {
+    display: none;
+}
+
+.footer-content {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.list-inline a {
+    color: red;
+}
+
+@media (min-width: 992px) {
+    #navMain {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+        -moz-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+        letter-spacing: 1px;
+        background: transparent;
+        font-size: 1.5em;
+    }
+    #navMain .nav-link.active {
+        outline: none;
+        background-color: rgba(26, 25, 24, 0.699);
+    }
+    #navMain .nav-link.active:hover {
+        color: white;
+    }
+    #navMain.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid red;
+        background: rgba(128, 128, 128, 0.26);
+    }
+    #navMain.navbar-shrink a {
+        color: rgba(250, 0, 42, 0.973);
+    }
+    #start-game a {
+        margin-top: 30%;
+    }
+    .footer {
+        position: fixed;
+        color: white;
+        background-color: black;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Julius Sans One';
+    }
+}
