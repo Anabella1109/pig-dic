@@ -2,8 +2,8 @@ body,
 html {
     height: 100%;
     background-color: aliceblue;
-    /* background-image: url("../img/header-image.jpg");
-    background-size: cover;  */
+     background-image: url("../img/header-image.jpg");
+    background-size: cover;  
     position: relative;
 }
 
@@ -61,7 +61,7 @@ html {
 }
 
 .center-panel button {
-    margin: 5%;
+    /* margin: 5%; */
 }
 
 .center-panel p {
