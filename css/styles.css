@@ -96,32 +96,34 @@ html {
 
 
 a.btn {
-    -webkit-transition: all 0.2s ease-in-out;
+    /* -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; */
     /* border: solid 1px rgba(248, 0, 0, 0.973); */
-    color: rgb(252, 252, 252);
+    color: rgb(255, 255, 255);
     background-color: rgb(87, 71, 71);
     margin: 0.1em;
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    height:60px;
 }
 
-a.btn:hover {
+/* a.btn:hover {
     background-color: #eeeceb00;
     color: white;
-}
+} */
 
 .live-content,
 .winner-text {
-    font-family: 'Julius Sans One';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
 }
 
 a#fresh-game {
-    font-family: 'Averia Sans Libre';
-    text-transform: uppercase;
+    font-family: 'Julius Sans One';
+    /* text-transform: uppercase; */
     font-style: oblique;
     font-size: 1.4em;
 }
