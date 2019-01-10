@@ -1,4 +1,3 @@
-
 body,
 html {
     height: 100%;
@@ -42,7 +41,7 @@ html {
     font-size: 10em;
 }
 
-.player-turn {
+.new-turn {
     background-color: rgba(255, 99, 71, 0.116);
     height: 20em;
 }
