@@ -2,8 +2,8 @@ body,
 html {
     height: 100%;
     background-color: aliceblue;
-     background-image: url("../img/header-image.jpg");
-    background-size: cover;  
+     /* background-image: url("../img/header-image.jpg");
+    background-size: cover;   */
     position: relative;
 }
 
@@ -11,17 +11,21 @@ html {
      font-family: 'Courier New', Courier, monospace; 
     font-size: 100%;
     text-transform: uppercase;
+  
 }
 
 #navMain .navbar-toggler {
     font-size: 14px;
     padding: 11px;
     color: rgba(255, 255, 255, 0.973);
+   
 }
 
 #navMain a {
     color: rgba(250, 250, 250, 0.973);
     text-decoration: none;
+    background-color: black;
+    opacity: 0.7;
 }
 
  /* #navMain .navbar-nav .nav-item:active,
@@ -40,13 +44,16 @@ html {
 
 .live-content h1 {
     font-size: 10em;
-    color:black;
+    color:red;
 }
 
 .new-turn {
     /* background-color: rgba(255, 99, 71, 0.116);        styling to show current player      */
-    border:2px solid black;
+    border:1px solid rgb(255, 0, 0);
     height: 20em;
+    background-color: black;
+    opacity: 0.9;
+    color: red;
 }
 
 .game-content {
@@ -61,15 +68,16 @@ html {
 }
 
 .center-panel button {
-    /* margin: 5%; */
+    margin: 7%;
 }
 
-.center-panel p {
+ .center-panel p {
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(255, 0, 0, 0.616);
-}
+} 
 
 .winner {
     background-image: url("../img/dice.gif");
@@ -84,10 +92,10 @@ html {
     color: white;
 }
 
-.center-panel button {
+/* .center-panel button {
     padding-left: 1.5em;
     padding-right: 1.5em;
-}
+} */
 
 a.btn {
     -webkit-transition: all 0.2s ease-in-out;
