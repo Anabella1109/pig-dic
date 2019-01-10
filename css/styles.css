@@ -1,13 +1,14 @@
 body,
 html {
     height: 100%;
-    background-image: url("../img/header-image.jpg");
-    background-size: cover;
+    background-color: aliceblue;
+    /* background-image: url("../img/header-image.jpg");
+    background-size: cover;  */
     position: relative;
 }
 
 #navMain {
-    font-family: 'Happy Monkey';
+     font-family: 'Courier New', Courier, monospace; 
     font-size: 100%;
     text-transform: uppercase;
 }
@@ -23,15 +24,15 @@ html {
     text-decoration: none;
 }
 
-#navMain .navbar-nav .nav-item:active,
+ /* #navMain .navbar-nav .nav-item:active,
 #navMain .navbar-nav .nav-item:focus {
-    outline: none;
+    outline: none; 
     background-color: transparent;
-}
+}  */
 
-#start-game a {
+/* #start-game a {
     margin-top: 60%;
-}
+} */
 
 #start-game {
     text-align: center;
@@ -39,15 +40,17 @@ html {
 
 .live-content h1 {
     font-size: 10em;
+    color:black;
 }
 
 .new-turn {
-    background-color: rgba(255, 99, 71, 0.116);
+    /* background-color: rgba(255, 99, 71, 0.116);        styling to show current player      */
+    border:2px solid black;
     height: 20em;
 }
 
 .game-content {
-    color: white;
+    color:black;
     text-align: center;
     padding-top: 10%;
 }
