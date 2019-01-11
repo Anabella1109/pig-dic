@@ -6,167 +6,158 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
-    <!-- <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'> -->
   <link rel="stylesheet" href="css/font-awesome.css">
     <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
      <!-- <link rel="shortcut icon" href="img/icon.png">  -->
-    <title>Play Pig Dice</title>
-    <script
+  <title>Play Pig Dice</title>
+  <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navMain">
-        <div class="container">
-            <a href="index.html"><i class="fa fa-play-circle-o" id="new">NEW GAME</i></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navMain">
+    <div class="container">
+      <a href="index.html"><i class="fa fa-play-circle-o" id="new">NEW GAME</i></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
                 <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#modal-rules" data-toggle="modal">Game Rules</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link smooth-scroll" href="#modal-rules" data-toggle="modal"><i class="fa fa-question-circle" id="help">Help</i></a>
-                        </li>
-                    </ul>
-                </div>
-        </div>
-    </nav>
-    <div class="container" id="start-game">
-        <a href="#input-details" id="fresh-game" class="btn btn-default btn-lg <!--animated infinite flash -->" data-toggle="modal"> Start game!</a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link smooth-scroll" href="#modal-rules" data-toggle="modal">Game Rules</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link smooth-scroll" href="#modal-rules" data-toggle="modal"><i class="fa fa-question-circle" id="help">Help</i></a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="container" id="image">
-        <img src="https://images.pexels.com/photos/37534/cube-six-gambling-play-37534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="400px">
-    </div>
-    <div class="container-fluid dice-game">
-        <div class="container">
-            <div class="row game-content">
-                <div class="col-md-4 live-content" id="content1">
-                    <h1>0</h1>
-                    <h2></h2>
-                    <!-- <h3></h3> -->
-                    <h4 class="cumulative"></h4>
-                </div>
-                <div class="col-md-4 center-panel">
-                    <button class="btn btn-outline btn-lg" id="reset" href="#input-details">Reset Game</i></button>
-                    <br>
-                   
-                    <button class="btn btn-outline btn-lg gamers" id="diceRoll"><i class="fa fa-refresh ">Roll</i></button>
-                    <button class="btn btn-outline btn-lg gamers" id="hold"><i class="fa fa-arrow-circle-o-down">Hold</i></button>
-                    <p class="text-uppercase <!-- animated infinite shake-->"></p>
-                    <div id="dice-image">
-
-                    </div>
-                </div>
-                <div class="col-md-4 live-content" id="content2">
-                    <h1>0</h1>
-                    <h2></h2>
-                    <!-- <h3></h3> -->
-                    <h4 class="cumulative"></h4>
-                </div>
-            </div>
+   </nav>
+   <div class="container" id="start-game">
+     <a href="#input-details" id="fresh-game" class="btn btn-default btn-lg <!--animated infinite flash -->" data-toggle="modal"> Start game!</a>
+   </div>
+   <div class="container" id="image">
+     <img src="https://images.pexels.com/photos/37534/cube-six-gambling-play-37534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="400px">
+   </div>
+   <div class="container-fluid dice-game">
+     <div class="container">
+      <div class="row game-content">
+        <div class="col-md-4 live-content" id="content1">
+          <h1>0</h1>
+          <h2></h2>
+          <h4 class="cumulative"></h4>
         </div>
+        <div class="col-md-4 center-panel">
+          <button class="btn btn-outline btn-lg" id="reset" href="#input-details">Reset Game</i></button>
+          <br>
+          <button class="btn btn-outline btn-lg gamers" id="diceRoll"><i class="fa fa-refresh ">Roll</i></button>
+          <button class="btn btn-outline btn-lg gamers" id="hold"><i class="fa fa-arrow-circle-o-down">Hold</i></button>
+          <p class="text-uppercase <!-- animated infinite shake-->"></p>
+          <div id="dice-image">
+          </div>
+        </div>
+        <div class="col-md-4 live-content" id="content2">
+          <h1>0</h1>
+          <h2></h2>
+          <h4 class="cumulative"></h4>
+       </div>
+      </div>
+      </div>
     </div>
     <div class="modal fade" id="modal-rules" role="dialog">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Rules</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <h3>Game Play:</h3>
-                    <p>A player rolls the dice until either:</p>
-                    <ul>
-                        <li>A one is rolled</li>
-                        <li>The player chooses to hold i.e. stop rolling</li>
-                    </ul>
-                    <p>When a one is rolled, accumulated points are discarded and the other player takes over the dice.</p>
-                    <p>When Hold is pressed, the accumulated points are added to the player's final Score.</p>
-                    <p>The other player then takes the dice over</p>
-                    <p>
-                        <span class="font-weight-bold">The first player to get 100 is the Winner!</span>
-                    </p>
-                    <br>
-                    <h3>How to Play</h3>
-                    <ol>
-                        <li>Click start to begin the game</li>
-                        <li>Enter the name of two players</li>
-                        <li>ROLL the dice and HODL as pleased.</li>
-                    </ol>
-                    <p>Resetting the game makes all counters become 0.</p>
-                    <p>Refresh the game to start a new game with different players.</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="input-details" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Enter names of 2 players</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="" id="player-names">
-                        <div class="col">
-                            <input class="form-group" type="text" id="name-player" placeholder="Name of Player">
-                            <button type="submit" class="btn" id="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-danger" type="button" data-dismiss="modal" id="close">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="winner-modal" role="dialog">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content winner">
-                <div class="modal-body">
-                    <div class="winner-text">
-
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="footer-content">
-            <ul class="list-inline">
-                <li class="list-inline-item">
-                    <a href="https://github.com/Anabella1109?tab=repositories" target="_blank">
-                        <i class="fa fa-github fa-2x"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://twitter.com/anabella_ty" target="_blank">
-                        <i class="fa fa-twitter fa-2x"></i>
-                    </a>
-                </li>
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Rules</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <h3>Game Play:</h3>
+            <p>A player rolls the dice until either:</p>
+            <ul>
+              <li>A one is rolled</li>
+              <li>The player chooses to hold i.e. stop rolling</li>
             </ul>
-            <h5>Copyright &copy; Pig Dice 2019.</h5>
+            <p>When a one is rolled, accumulated points are discarded and the other player takes over the dice.</p>
+            <p>When Hold is pressed, the accumulated points are added to the player's final Score.</p>
+            <p>The other player then takes the dice over</p>
+            <p><span class="font-weight-bold">The first player to get 100 is the Winner!</span></p>
+            <br>
+            <h3>How to Play</h3>
+            <ol>
+              <li>Click start to begin the game</li>
+              <li>Enter the name of two players</li>
+              <li>ROLL the dice and HOLD as pleased.</li>
+            </ol>
+            <p>Resetting the game makes all counters become 0.</p>
+            <p>Refresh the game to start a new game with different players.</p>
+           </div>
+           <div class="modal-footer">
+             <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+           </div>
+          </div>
         </div>
-    </footer>
-   
-</body>
+      </div>
+      <div class="modal fade" id="input-details" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Enter names of 2 players</h4>
+            </div>
+            <div class="modal-body">
+              <form action="" id="player-names">
+                <div class="col">
+                  <input class="form-group" type="text" id="name-player" placeholder="Name of Player">
+                  <button type="submit" class="btn" id="submit">Submit</button>
+                </div>
+              </form>
+              </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" type="button" data-dismiss="modal" id="close">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="winner-modal" role="dialog">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content winner">
+              <div class="modal-body">
+                <div class="winner-text">
 
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://github.com/Anabella1109?tab=repositories" target="_blank">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/anabella_ty" target="_blank">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </li>
+         </ul>
+           <h5>Copyright &copy; Pig Dice 2019.</h5>
+      </div>
+    </footer>
+  </body>
 </html>
