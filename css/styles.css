@@ -164,6 +164,9 @@ a#fresh-game {
     background-color:rgb(128, 26, 8); 
     margin-left:20px;
 }
+#image{
+    margin-left:35%;
+}
 
 @media (min-width: 100px) {
     #navMain {
