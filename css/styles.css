@@ -160,6 +160,10 @@ a#fresh-game {
 .list-inline a {
     color: blue;
 }
+#submit{
+    background-color:rgb(128, 26, 8); 
+    margin-left:20px;
+}
 
 @media (min-width: 100px) {
     #navMain {
