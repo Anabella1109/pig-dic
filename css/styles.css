@@ -128,9 +128,9 @@ a#fresh-game {
     font-size: 1.4em;
 }
 
-.footer {
+/* footer {
     display: none;
-}
+} */
 
 .footer-content {
     padding-top: 1%;
@@ -139,10 +139,10 @@ a#fresh-game {
 }
 
 .list-inline a {
-    color: red;
+    color: blue;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 100px) {
     #navMain {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -173,7 +173,7 @@ a#fresh-game {
         margin-top: 30%;
     }
     .footer {
-        position: fixed;
+        position: fixed; 
         color: white;
         background-color: black;
         right: 0;
