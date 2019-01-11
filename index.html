@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Averia Sans Libre' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'> -->
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -33,6 +33,9 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <h3>PIG DICE</h3>
+    </div>
     <div class="container" id="start-game">
         <a href="#input-details" id="fresh-game" class="btn btn-default btn-lg <!--animated infinite flash -->" data-toggle="modal"> Start game!</a>
     </div>
@@ -51,9 +54,10 @@
                 <div class="col-md-4 center-panel">
                     <button class="btn btn-outline btn-lg" id="reset" href="#input-details">Reset Game</button>
                     <br>
-                    <button class="btn btn-outline btn-lg gamers" id="diceRoll">Roll</button>
-                    <button class="btn btn-outline btn-lg gamers" id="hold">Hold</button>
                     <p class="text-uppercase <!-- animated infinite shake-->"></p>
+                    <button class="btn btn-outline btn-lg gamers" id="diceRoll"><i class="fa fa-refresh">Roll</i></button>
+                    <button class="btn btn-outline btn-lg gamers" id="hold"><i class="fa fa-arrow-circle-o-down">Hold</i></button>
+                    
                     <div id="dice-image">
 
                     </div>
@@ -107,7 +111,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Enter Name of 2 Players </h4>
+                    <h4 class="modal-title">Enter names of 2 players</h4>
                 </div>
                 <div class="modal-body">
                     <form action="" id="player-names">
@@ -118,7 +122,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <center><button class="btn btn-danger" type="button" data-dismiss="modal">Close</button></center>
+                    <button class="btn btn-danger" type="button" data-dismiss="modal" id="close">Close</button>
                 </div>
             </div>
         </div>
