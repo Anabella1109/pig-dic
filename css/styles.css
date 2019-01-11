@@ -59,7 +59,7 @@ html {
 }
 
 .game-content {
-    color:black;
+    color:white;;
     text-align: center;
     padding-top: 10%;
 }
@@ -86,6 +86,10 @@ html {
     align-items: space-around;
     height: 4em;
     padding-top: 7%;
+}
+#reset{
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 71, 71);  
 }
 
  .center-panel p {
