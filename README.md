@@ -5,7 +5,7 @@
 ## Description
 The Pig-Dice game is a fun game based on two players rolling a dice.
 
-A player rolls the die until either:
+A player rolls the dice until either:
 
     1. A one is rolled
     2. The player chooses to hold i.e. stop rolling
@@ -14,7 +14,7 @@ When a one is rolled, accumulated points are discarded and the other player take
 
 When Hold is pressed, the accumulated points are added to the player's final Score.
 
-The other player then takes the die over.
+The other player then takes the dice over.
 
 ## Specifications
 The web application will request the names of two users.
