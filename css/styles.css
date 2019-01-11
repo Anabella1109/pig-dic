@@ -12,7 +12,7 @@ html {
      font-family: 'Courier New', Courier, monospace; 
     font-size: 100%;
     text-transform: uppercase;
-    background-color: black;
+    /* background-color: black; */
   
 }
 
@@ -71,12 +71,21 @@ html {
 }
 
 .center-panel button {
-    margin: 7%;
+    margin: 15%;
+    margin-left: 35%;
     padding-left: 1.5em;
     padding-right: 1.5em;
     background-color: rgb(1, 1, 116);
     color: white;
     
+    
+}
+.gamers{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    height: 4em;
+    padding-top: 7%;
 }
 
  .center-panel p {
