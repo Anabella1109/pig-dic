@@ -7,6 +7,9 @@ html {
     position: relative;
     /* rgb(221, 115, 253); */
 }
+#new,#help{
+    display:none;
+}
 
 #navMain {
      font-family: 'Courier New', Courier, monospace; 
@@ -95,7 +98,7 @@ html {
  .center-panel p {
     padding-top: 1em;
     /* padding-bottom: 0.5em; */
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(255, 0, 0, 0.616);
 } 
