@@ -3,7 +3,7 @@ html {
   height: 100%;
   background-color: rgb(0, 0, 0);
   position: relative;
-    }
+}
 
 #new,#help{
   display:none;
@@ -22,173 +22,180 @@ html {
 }
 
 #navMain a {
-    color: rgba(250, 250, 250, 0.973);
-    text-decoration: none;
+  color: rgba(250, 250, 250, 0.973);
+  text-decoration: none;
     
 }
 
- 
-
 #start-game {
-    text-align: center;
+  text-align: center;
 }
 
 .live-content h1 {
-    font-size: 10em;
-    color:rgb(255, 255, 255);
+  font-size: 10em;
+  color:rgb(255, 255, 255);
 }
 
 .new-turn {
-    border:1px solid rgb(255, 0, 0);
-    height: 20em;
-   
-    opacity: 0.9;
-    color: red;
+  border:1px solid rgb(255, 0, 0);
+  height: 20em;
+  opacity: 0.9;
+  color: red;
 }
 
 .game-content {
-    color:white;;
-    text-align: center;
-    padding-top: 8%;
+  color:white;;
+  text-align: center;
+  padding-top: 8%;
 }
 
 
 .dice-game {
-    padding-top: 6%;
-    display: none;
+  padding-top: 6%;
+  display: none;
 }
 
 .center-panel button {
-    margin: 15%;
-    margin-left: 35%;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    background-color: rgb(1, 1, 116);
-    color: white;
-    
-    
+  margin: 15%;
+  margin-left: 35%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: rgb(1, 1, 116);
+  color: white;
+
 }
+
 .gamers{
-    display: flex;
-    flex-direction: column;
-    align-items: space-around;
-    height: 4em;
-    padding-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  height: 4em;
+  padding-top: 7%;
 }
+
 #reset{
-    color: rgb(255, 255, 255);
-    background-color: rgb(87, 71, 71);  
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 71, 71);  
 }
 
  .center-panel p {
-    padding-top: 1em;
-    font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(255, 0, 0, 0.616);
+  padding-top: 1em;
+  font-size: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(255, 0, 0, 0.616);
 } 
 
 .winner {
-    background-image: url("../img/dice.gif");
-    background-size: cover;
+  background-image: url("../img/dice.gif");
+  background-size: cover;
 }
 
 .winner-text {
-    padding-top: 6em;
-    padding-bottom: 6em;
-    padding-left: 4%;
-    color: white;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 4%;
+  color: white;
 }
+
 #close{
-    margin-right: 200px;
+  margin-right: 200px;
 }
+
 .modal-title{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 a.btn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(87, 71, 71);
-    margin: 0.1em;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    height:60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 71, 71);
+  margin: 0.1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height:60px;
 }
 
 
 .live-content,
 .winner-text {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
 }
 
 a#fresh-game {
-    font-family: 'Julius Sans One';
-    font-style: oblique;
-    font-size: 1.4em;
+  font-family: 'Julius Sans One';
+  font-style: oblique;
+  font-size: 1.4em;
 }
 
 
 .footer-content {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
 }
 
 .list-inline a {
-    color: blue;
+  color: blue;
 }
+
 #submit{
-    background-color:rgb(128, 26, 8); 
-    margin-left:20px;
+  background-color:rgb(128, 26, 8); 
+  margin-left:20px;
 }
+
 #image{
-    margin-left:35%;
+  margin-left:35%;
 }
 
 @media (min-width: 100px) {
     #navMain {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        -webkit-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
-        -moz-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
-        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
-        letter-spacing: 1px;
-        background: transparent;
-        font-size: 1.5em;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+      -moz-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+      transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
+      letter-spacing: 1px;
+      background: transparent;
+      font-size: 1.5em;
     }
+
     #navMain .nav-link.active {
-        outline: none;
-        background-color: rgba(26, 25, 24, 0.699);
+      outline: none;
+      background-color: rgba(26, 25, 24, 0.699);
     }
+
     #navMain .nav-link.active:hover {
-        color: white;
+      color: white;
     }
+
     #navMain.navbar-shrink {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid red;
-        background: rgba(128, 128, 128, 0.26);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid red;
+      background: rgba(128, 128, 128, 0.26);
     }
+
     #navMain.navbar-shrink a {
-        color: rgba(250, 0, 42, 0.973);
+      color: rgba(250, 0, 42, 0.973);
     }
     #start-game a {
-        margin-top: 30%;
+      margin-top: 30%;
     }
     .footer {
-        position: fixed; 
-        color: white;
-        background-color: black;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Julius Sans One';
+      position: fixed; 
+      color: white;
+      background-color: black;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Julius Sans One';
     }
+    
 }
