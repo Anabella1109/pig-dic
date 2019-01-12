@@ -25,27 +25,27 @@ The other player then takes the die over.
 
 ## SPECS
 * The program should allow two users to play
-   * Input example:
-   * Output example:
+   * Input example:player1 name:"anny" player2:nino; 
+   * Output example:anny 45 ,nino:68
 
 * The program should allow the user to roll the dice when it's their turn
-      * Input example:
-   * Output example:
+      * Input example:roll
+   * Output example:5
 * The program should allow the user see the score they get for each roll of the dice they make in the game.
-     * Input example:
-   * Output example:
+     * Input example:roll
+   * Output example:6
 * The program should allow the user to see their cumulative score for each round they play in the game
-    * Input example:
-   * Output example:
+    * Input example:roll
+   * Output example:12
 * The program should allow the user to hold their score when they are satisfied with the points they've gained in a round of playing
-    * Input example:
-   * Output example:
+    * Input example:hold
+   * Output example:34
 * The program should alert when the dice rolls to one
- * Input example:
-   * Output example:
+ * Input example:roll
+   * Output example:oy,tou rolled a 1
 * The program should tell who is the winner
- * Input example:
-   * Output example:
+ * Input example:roll
+   * Output example:anny won!!!
 ## Known Bugs
 There are no known bugs yet.
 ## Technologies Used
