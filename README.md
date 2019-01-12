@@ -19,7 +19,7 @@ The other player then takes the die over.
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
-* http://Anabella1109.github.io/pig-dice
+* http://Anabella1109.github.io/pig-dic
 * And there you have it
 # BDD
 
