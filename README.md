@@ -39,13 +39,13 @@ The other player then takes the die over.
    * Output example:12
 * The program should allow the user to hold their score when they are satisfied with the points they've gained in a round of playing
     * Input example:hold
-   * Output example:34
+    * Output example:34
 * The program should alert when the dice rolls to one
- * Input example:roll
- * Output example:oy,tou rolled a 1
+   * Input example:roll
+   * Output example:oy,tou rolled a 1
 * The program should tell who is the winner
- * Input example:roll
- * Output example:anny won!!!
+   * Input example:roll
+   * Output example:anny won!!!
 ## Known Bugs
 There are no known bugs yet.
 ## Technologies Used
