@@ -42,10 +42,10 @@ The other player then takes the die over.
    * Output example:34
 * The program should alert when the dice rolls to one
  * Input example:roll
-   * Output example:oy,tou rolled a 1
+ * Output example:oy,tou rolled a 1
 * The program should tell who is the winner
  * Input example:roll
-   * Output example:anny won!!!
+ * Output example:anny won!!!
 ## Known Bugs
 There are no known bugs yet.
 ## Technologies Used
